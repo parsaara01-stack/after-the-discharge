@@ -15,7 +15,11 @@
 
 - Account verified through GitHub connector: parsaara01-stack.
 - Public repository created and verified: https://github.com/parsaara01-stack/after-the-discharge
-- GitHub Pages configuration and first deployment are in progress. Do not treat the intended URL as deployed until checked below.
+- GitHub Pages is live: https://parsaara01-stack.github.io/after-the-discharge/
+- First check/build/deploy run passed: https://github.com/parsaara01-stack/after-the-discharge/actions/runs/40937997445
+- Verified HTTP 200 for the page, CSS, JavaScript, interactive data, summary, exclusion CSV and methods; each matched the local file SHA-256.
+- Cloned the public repository into a fresh directory, reran all integrity checks and confirmed no derived-file differences.
+- The connector could read the new repository but denied file writes. Browser upload plus a checksum-verified one-time workflow imported the public source; the source archive was removed from the final tree. No persistent credentials or account permission changes were needed.
 
 ## Evidence limits
 
