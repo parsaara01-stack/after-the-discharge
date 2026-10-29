@@ -1,0 +1,142 @@
+{
+  "status": "Feasibility pilot \u2014 association not estimable",
+  "as_of": "2026-10-29",
+  "author": "Parsa Ara",
+  "exposure_measure": "H_COMP_6_Y_P",
+  "outcome_measure": "Hybrid_HWR",
+  "funnel": [
+    {
+      "stage": "Wisconsin facilities in CMS general-information file",
+      "remaining": 140,
+      "excluded": 0
+    },
+    {
+      "stage": "Acute Care Hospitals",
+      "remaining": 64,
+      "excluded": 76
+    },
+    {
+      "stage": "Discharge-information measure row matched by facility ID",
+      "remaining": 64,
+      "excluded": 0
+    },
+    {
+      "stage": "Numeric discharge-information score",
+      "remaining": 64,
+      "excluded": 0
+    },
+    {
+      "stage": "At least 100 completed surveys; no discharge-score footnote",
+      "remaining": 63,
+      "excluded": 1
+    },
+    {
+      "stage": "Hospital-wide hybrid readmission row matched by facility ID",
+      "remaining": 63,
+      "excluded": 0
+    },
+    {
+      "stage": "Numeric hospital-wide readmission score",
+      "remaining": 0,
+      "excluded": 63
+    },
+    {
+      "stage": "Exactly matching measurement start and end dates",
+      "remaining": 0,
+      "excluded": 0
+    }
+  ],
+  "hospital_types": {
+    "Acute Care Hospitals": 64,
+    "Acute Care - Veterans Administration": 3,
+    "Critical Access Hospitals": 58,
+    "Childrens": 2,
+    "Psychiatric": 13
+  },
+  "acute_hospitals": 64,
+  "reliable_exposure_n": 63,
+  "eligible_pairs": 0,
+  "acute_numeric_readmission_n": 0,
+  "acute_outcome_tokens": {
+    "Not Available": 64
+  },
+  "acute_outcome_flags": {
+    "4": 64
+  },
+  "acute_exposure_flags": {
+    "(blank)": 63,
+    "6": 1
+  },
+  "exposure_period": [
+    "10/01/2024",
+    "09/30/2025"
+  ],
+  "outcome_period": [
+    "07/01/2024",
+    "06/30/2025"
+  ],
+  "overlap_days": 273,
+  "exact_period_matches_in_acute": 0,
+  "all_acute_discharge": {
+    "n": 64,
+    "median": 89.0,
+    "min": 81.0,
+    "max": 94.0,
+    "mean": 88.9219
+  },
+  "reliable_discharge": {
+    "n": 63,
+    "median": 89.0,
+    "min": 81.0,
+    "max": 94.0,
+    "mean": 88.9206
+  },
+  "survey_completions": {
+    "n": 64,
+    "median": 505.5,
+    "min": 83.0,
+    "max": 3209.0,
+    "mean": 738.1719
+  },
+  "survey_response": {
+    "n": 64,
+    "median": 30.0,
+    "min": 14.0,
+    "max": 55.0,
+    "mean": 29.5312
+  },
+  "ownership": {
+    "Voluntary non-profit - Church": 7,
+    "Voluntary non-profit - Private": 45,
+    "Government - Local": 1,
+    "Proprietary": 4,
+    "Voluntary non-profit - Other": 3,
+    "Government - Hospital District or Authority": 1,
+    "Physician": 3
+  },
+  "expansion": "Not triggered: dataset-level period mismatch and no numeric hospital-wide outcomes; adding states cannot fix either barrier.",
+  "association": null,
+  "sensitivity": {
+    "0": {
+      "n": 64,
+      "median": 89.0,
+      "min": 81.0,
+      "max": 94.0,
+      "mean": 88.9219
+    },
+    "100": {
+      "n": 63,
+      "median": 89.0,
+      "min": 81.0,
+      "max": 94.0,
+      "mean": 88.9206
+    },
+    "300": {
+      "n": 52,
+      "median": 89.0,
+      "min": 83.0,
+      "max": 94.0,
+      "mean": 88.9038
+    }
+  }
+}

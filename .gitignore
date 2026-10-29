@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+# Large immutable national downloads stay local; exact URLs/hashes are tracked.
+data/raw/*.csv
+!data/raw/y9us-9xdf.csv
+!data/raw/4j6d-yzce.csv
+# Official PDFs are downloadable from manifest and retained in this local workspace.
+data/raw/*.pdf

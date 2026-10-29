@@ -1,0 +1,138 @@
+[
+  {
+    "path": "data/raw/632h-zaca.json",
+    "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/632h-zaca",
+    "retrieved_utc": "2026-10-29T18:59:51.179510+00:00",
+    "sha256": "db705c0f067b2f8679abb9fdc19088fa71cb477bc50c9dc0e56eedf6b4241ea8",
+    "bytes": 1574,
+    "http_last_modified": "Thu, 29 Oct 2026 18:55:32 GMT",
+    "kind": "catalog metadata"
+  },
+  {
+    "path": "data/raw/632h-zaca.csv",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/30edc1d0417a34b58affcc2495a02b0a_1790013959/Unplanned_Hospital_Visits-Hospital.csv",
+    "retrieved_utc": "2026-10-29T18:59:52.121920+00:00",
+    "sha256": "98cc64f5fc330ffa7e4bef97f8e86a772a1d3dfe2f7dd08976cb1ee43fad1b2d",
+    "bytes": 18945811,
+    "http_last_modified": "Mon, 21 Sep 2026 18:10:48 GMT",
+    "kind": "data",
+    "dataset_id": "632h-zaca",
+    "title": "Unplanned Hospital Visits - Hospital",
+    "cms_modified": "2026-09-10",
+    "cms_released": "2026-09-30"
+  },
+  {
+    "path": "data/raw/dgck-syfz.json",
+    "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/dgck-syfz",
+    "retrieved_utc": "2026-10-29T18:59:52.353654+00:00",
+    "sha256": "070a02b7e2fcff0cef07a3ffd5d099f6f27fd3b0050139723cdbc9ecd220b042",
+    "bytes": 1298,
+    "http_last_modified": "Thu, 29 Oct 2026 18:20:52 GMT",
+    "kind": "catalog metadata"
+  },
+  {
+    "path": "data/raw/dgck-syfz.csv",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/78a50346fbe828ea0ce2837847af6a7c_1785189950/HCAHPS-Hospital.csv",
+    "retrieved_utc": "2026-10-29T18:59:54.871622+00:00",
+    "sha256": "b70e598f29552df302e30ed649d178abd1b3d3c868ae97cf8e55453dd33898fc",
+    "bytes": 105461119,
+    "http_last_modified": "Mon, 27 Jul 2026 22:10:53 GMT",
+    "kind": "data",
+    "dataset_id": "dgck-syfz",
+    "title": "Patient survey (HCAHPS) - Hospital",
+    "cms_modified": "2026-07-22",
+    "cms_released": "2026-08-13"
+  },
+  {
+    "path": "data/raw/xubh-q36u.json",
+    "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/xubh-q36u",
+    "retrieved_utc": "2026-10-29T18:59:55.179395+00:00",
+    "sha256": "31eea397b8bfe8207168cefda23256eb9cb3d5e49158d221eda8465a2d8e5f8c",
+    "bytes": 1215,
+    "http_last_modified": "Thu, 29 Oct 2026 18:36:15 GMT",
+    "kind": "catalog metadata"
+  },
+  {
+    "path": "data/raw/xubh-q36u.csv",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/893c372430d9d71a1c52737d01239d47_1785189955/Hospital_General_Information.csv",
+    "retrieved_utc": "2026-10-29T18:59:55.798229+00:00",
+    "sha256": "f874f09fef895a1ccf5bb7392dcbb2be05c9860339261b093fe00f0c1b013480",
+    "bytes": 1450767,
+    "http_last_modified": "Mon, 27 Jul 2026 22:11:00 GMT",
+    "kind": "data",
+    "dataset_id": "xubh-q36u",
+    "title": "Hospital General Information",
+    "cms_modified": "2026-07-22",
+    "cms_released": "2026-08-13"
+  },
+  {
+    "path": "data/raw/HOSPITAL_Data_Dictionary.pdf",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/data_dictionaries/hospital/HOSPITAL_Data_Dictionary.pdf",
+    "retrieved_utc": "2026-10-29T18:59:56.309297+00:00",
+    "sha256": "a304420163abc6c677afc248a93f38108009b17697aa1c681da8a18d18d8a04d",
+    "bytes": 1237869,
+    "http_last_modified": "Wed, 30 Sep 2026 05:41:00 GMT",
+    "kind": "dictionary"
+  },
+  {
+    "path": "data/raw/hcahps-2025-changes.pdf",
+    "url": "https://hcahpsonline.org/globalassets/hcahps/podcasts/hcahps-program-updates-changes-to-survey-content-and-survey-protocol-podcast-script.pdf",
+    "retrieved_utc": "2026-10-29T18:59:57.335830+00:00",
+    "sha256": "7ad813fbcae9e60a83f398cb8998d6ba6155a6f858728929348c06c3e2d423c4",
+    "bytes": 269355,
+    "http_last_modified": "Thu, 19 Dec 2024 16:18:21 GMT",
+    "kind": "official survey methods"
+  },
+  {
+    "path": "data/raw/y9us-9xdf.json",
+    "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/y9us-9xdf",
+    "retrieved_utc": "2026-10-29T19:01:13.950071+00:00",
+    "sha256": "3504046f6592b4aa4cce3045ead86b0c696060cee8a835891f3746b513e1bdd9",
+    "bytes": 1077,
+    "dataset_id": "y9us-9xdf",
+    "title": "Footnote Crosswalk",
+    "cms_modified": "2025-09-18",
+    "cms_released": "2026-08-13"
+  },
+  {
+    "path": "data/raw/y9us-9xdf.csv",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/f29bb7c812e242f6edfef0a4b7d0eaca_1760630713/Footnote_Crosswalk.csv",
+    "retrieved_utc": "2026-10-29T19:01:14.142583+00:00",
+    "sha256": "5214e1468fb04c5cdeac8920f2c446cccaa65e2f6f929424cd228042a52d963e",
+    "bytes": 3456,
+    "dataset_id": "y9us-9xdf",
+    "title": "Footnote Crosswalk",
+    "cms_modified": "2025-09-18",
+    "cms_released": "2026-08-13"
+  },
+  {
+    "path": "data/raw/4j6d-yzce.json",
+    "url": "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/4j6d-yzce",
+    "retrieved_utc": "2026-10-29T19:01:14.882431+00:00",
+    "sha256": "cd9682692d060433406b8fedb67289202ea0c3def41caa933a43082f623b1733",
+    "bytes": 1060,
+    "dataset_id": "4j6d-yzce",
+    "title": "Measure Dates",
+    "cms_modified": "2026-07-28",
+    "cms_released": "2026-08-13"
+  },
+  {
+    "path": "data/raw/4j6d-yzce.csv",
+    "url": "https://data.cms.gov/provider-data/sites/default/files/resources/633113381312e1fa86c8e0ba8b14ed0f_1785189963/Measure_Dates.csv",
+    "retrieved_utc": "2026-10-29T19:01:15.311622+00:00",
+    "sha256": "8c0d88c6ada91feff88a90f797ab22fa8bedb306fa91033b1c9b865999c908c4",
+    "bytes": 18993,
+    "dataset_id": "4j6d-yzce",
+    "title": "Measure Dates",
+    "cms_modified": "2026-07-28",
+    "cms_released": "2026-08-13"
+  },
+  {
+    "path": "data/raw/hcahps-2025-training.pdf",
+    "url": "https://hcahpsonline.org/globalassets/hcahps/training-materials/2025_training-materials_slides.pdf",
+    "retrieved_utc": "2026-10-29T19:08:42.085221+00:00",
+    "sha256": "f79c11cf33d013c013b1eff4d69b4947444a8b93ff63a3fb7322629024b48720",
+    "bytes": 2588229,
+    "kind": "official training and reporting timeline"
+  }
+]

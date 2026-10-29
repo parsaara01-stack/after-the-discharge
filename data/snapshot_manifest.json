@@ -1,0 +1,29 @@
+[
+  {
+    "path": "data/snapshot/xubh-q36u.csv",
+    "sha256": "dd0ff282bfc56c28a18871fdd4c961acf44bf41a13c69e1af28f86d43899d5f3",
+    "bytes": 36619,
+    "rows": 140,
+    "parent_path": "data/raw/xubh-q36u.csv",
+    "parent_sha256": "f874f09fef895a1ccf5bb7392dcbb2be05c9860339261b093fe00f0c1b013480",
+    "filter": "State == WI"
+  },
+  {
+    "path": "data/snapshot/dgck-syfz.csv",
+    "sha256": "f38acb2aa1e8c1c3634ca9d51aa92a9badf7660f690bb51d7eaefffd005ffa8d",
+    "bytes": 43843,
+    "rows": 127,
+    "parent_path": "data/raw/dgck-syfz.csv",
+    "parent_sha256": "b70e598f29552df302e30ed649d178abd1b3d3c868ae97cf8e55453dd33898fc",
+    "filter": "State == WI AND HCAHPS Measure ID == H_COMP_6_Y_P"
+  },
+  {
+    "path": "data/snapshot/632h-zaca.csv",
+    "sha256": "09cb1f7311a23e6a7e28d207c3d2acd1d5775e2d15cc933d36852c63f881c77a",
+    "bytes": 37271,
+    "rows": 127,
+    "parent_path": "data/raw/632h-zaca.csv",
+    "parent_sha256": "98cc64f5fc330ffa7e4bef97f8e86a772a1d3dfe2f7dd08976cb1ee43fad1b2d",
+    "filter": "State == WI AND Measure ID == Hybrid_HWR"
+  }
+]
