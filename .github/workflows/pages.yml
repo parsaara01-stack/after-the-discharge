@@ -1,0 +1,51 @@
+name: Check research and deploy Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Import audited source bundle on first run
+        run: |
+          if [ -f research-source.zip ]; then
+            echo "639032a15f5af2b40143ecf677fa16684330c9499616fcbd2da8287eb178b366  research-source.zip" | sha256sum --check
+            unzip -o research-source.zip
+            rm research-source.zip
+            python3 scripts/check.py
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Import audited Wisconsin research source"
+            git push origin HEAD:main
+          fi
+      - name: Reproduce Wisconsin audit and verify integrity
+        run: python3 scripts/check.py
+      - name: Ensure checked-in results reproduce exactly
+        run: git diff --exit-code -- data/derived site/pilot-data.json site/downloads
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: check-and-build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy static research page
+        id: deployment
+        uses: actions/deploy-pages@v4
