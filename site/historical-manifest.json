@@ -1,0 +1,38 @@
+[
+  {
+    "archive_url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2024-10-30.zip",
+    "archive_sha256": "c0bb9ca111aeec16b9220da52b1aa5b33582284ecfd9cf29f1c3c39f1250ae8b",
+    "member": "Hospital_General_Information.csv",
+    "member_sha256": "05c1cc7f7578822bdebcbccde6e5e730b1f5b7000d559f258c3eba6438246879",
+    "retrieved_date": "2026-10-29"
+  },
+  {
+    "archive_url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2024-04-24.zip",
+    "archive_sha256": "ed2a42b6be355bab3de2a837533a48f1f1c8695acc339e97fbd1dcaadf7d723c",
+    "member": "HCAHPS-Hospital.csv",
+    "member_sha256": "34eeeabdf98b091259b44a7a419dba3b915ffc1b1992b57b03b7e8ef15b9c538",
+    "retrieved_date": "2026-10-29"
+  },
+  {
+    "archive_url": "https://data.cms.gov/provider-data/sites/default/files/dataset-archives/theme/hospitals/hospitals_2024-10-30.zip",
+    "archive_sha256": "c0bb9ca111aeec16b9220da52b1aa5b33582284ecfd9cf29f1c3c39f1250ae8b",
+    "member": "Unplanned_Hospital_Visits-Hospital.csv",
+    "member_sha256": "c0a54310cfa69c80db1d7d4cfeb9ffe422eabe205f1afb93d2d523eeef4374dd",
+    "retrieved_date": "2026-10-29"
+  },
+  {
+    "extract": "general.csv",
+    "sha256": "76540aaecf1be82ad2c721a229a2e1e4b61f0f7453aae13c57a15ad036a9efcc",
+    "filter": "WI, IL, IA, MI, MN; selected measure only for survey/readmission"
+  },
+  {
+    "extract": "survey.csv",
+    "sha256": "ddcf7b35cc5759ac1b8f60e66d6225ab87bd8024062099a103bd797883630274",
+    "filter": "WI, IL, IA, MI, MN; selected measure only for survey/readmission"
+  },
+  {
+    "extract": "readmission.csv",
+    "sha256": "6d3eca26f2b4afee60b29bdc5dbf9a6b3ab11d02cd770250d35fcc49263758a9",
+    "filter": "WI, IL, IA, MI, MN; selected measure only for survey/readmission"
+  }
+]

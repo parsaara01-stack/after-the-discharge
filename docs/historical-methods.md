@@ -1,0 +1,7 @@
+# Matched-Year Historical Analysis
+
+The historical amendment selects April 2024 HCAHPS and October 2024 claims-based hospital-wide readmissions, both July 2022–June 2023. The October 2024 general-information roster defines hospital type, which may not exactly reflect type during the measurement year. Four of 65 Wisconsin acute-care hospitals are excluded for survey reliability or collection-discrepancy flags. No numerical outcome-based exclusions are made.
+
+The 61-hospital primary correlation is -0.1904; the slope per five discharge-score points is -0.2590 readmission percentage points (95% hospital-pairs bootstrap interval -0.6429 to 0.0925). With >=300 surveys, n=51, correlation=-0.2996 and slope=-0.4074 (-0.8599 to -0.0615). This subset sensitivity does not override the uncertain primary result. Ownership is predominantly private nonprofit (44/61); other ownership categories have fewer than ten hospitals, so no stable ownership-stratified comparison is reported.
+
+The paired-hospital bootstrap does not propagate CMS sampling uncertainty or account for shared health systems. No covariate-adjusted causal model is claimed. Existing 2026 files and feasibility scripts are retained as audit history; historical_analysis.py and data/historical/ reproduce the new analysis. Install requirements.txt, then run python3 scripts/historical_analysis.py. Source extracts preserve all source columns, IDs, dates and flags. Original archive URLs and hashes are in data/historical/manifest.json.
