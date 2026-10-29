@@ -21,7 +21,7 @@ jobs:
       - name: Import audited source bundle on first run
         run: |
           if [ -f research-source.zip ]; then
-            echo "639032a15f5af2b40143ecf677fa16684330c9499616fcbd2da8287eb178b366  research-source.zip" | sha256sum --check
+            echo "2021364dd3a5cd510a8d0ed187daa3b9a8a55e374989e5405f923e687277a94f  research-source.zip" | sha256sum --check
             unzip -o research-source.zip
             rm research-source.zip
             python3 scripts/check.py
@@ -31,6 +31,10 @@ jobs:
             git commit -m "Import audited Wisconsin research source"
             git push origin HEAD:main
           fi
+      - name: Install Pinned Analysis Dependency
+        run: pip install -r requirements.txt
+      - name: Verify Historical Analysis
+        run: python3 scripts/verify_historical.py
       - name: Reproduce Wisconsin audit and verify integrity
         run: python3 scripts/check.py
       - name: Ensure checked-in results reproduce exactly
